@@ -151,3 +151,9 @@ model RendezVous {
   medecin   Medecin  @relation(fields: [medecinId], references: [id])
 }
 ```
+
+## Notre 1er controlleur
+
+Nous allons le faire simple, un `CRUD` complet sur établissement, et un `Create` pour les autres, Toute façon, la doc est la pour nous au besoin !
+
+Nous allons donc déplacer le fichier `router` dans le dossier `routes` et ajouter nos 4 routes.
